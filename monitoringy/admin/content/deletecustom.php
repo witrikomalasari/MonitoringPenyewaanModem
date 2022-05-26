@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$kdcustomer=$_GET['kdcustomer'];		//Memasukkan variabel ke dalam tabel	$sql="DELETE FROM tb_customer WHERE kdcustomer='$kdcustomer'";	$con->query($sql);	header("location:indexadmin.php?page=customer.php");?> 

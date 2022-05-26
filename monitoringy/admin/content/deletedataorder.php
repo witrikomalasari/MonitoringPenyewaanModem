@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$nopo=$_GET['nopo'];		//Memasukkan variabel ke dalam tabel	$sql="DELETE FROM tb_datapesan WHERE nopo='$nopo'";	$con->query($sql);	header("location:indexadmin.php?page=dataorder.php");?>  

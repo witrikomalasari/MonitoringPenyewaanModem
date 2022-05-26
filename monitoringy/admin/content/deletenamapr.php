@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$idproduk=$_GET['idproduk'];		//Memasukkan variabel ke dalam tabel	$sql="DELETE FROM tb_namaproduk WHERE idproduk='$idproduk'";	$con->query($sql);	header("location:indexadmin.php?page=produk.php");?> 

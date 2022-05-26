@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$idproduk=$_POST['idproduk'];	$namaproduk=$_POST['namaproduk']; 	//Memasukkan variabel ke dalam tabel	$sql="UPDATE tb_namaproduk 			set namaproduk='$namaproduk'				WHERE idproduk='$idproduk'";	$con->query($sql);	header("location:indexadmin.php?page=produk.php");?>

@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$kdbarang=$_POST['kdbarang'];	$namabarang=$_POST['namabarang'];	$jumlahstok=$_POST['jumlahstok']; 	//Memasukkan variabel ke dalam tabel	$sql="UPDATE tb_stok 			set namabarang='$namabarang', jumlahstok='$jumlahstok'				WHERE kdbarang='$kdbarang'";	$con->query($sql);	header("location:indexadmin.php?page=stok.php");?>

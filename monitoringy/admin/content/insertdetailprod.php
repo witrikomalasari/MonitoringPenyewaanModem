@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$idproduk=$_POST['idproduk'];	$kdbarang=$_POST['kdbarang'];	$jumlah_dipilih = count($kdbarang); for($x=0;$x<$jumlah_dipilih;$x++){	$sql="INSERT INTO produkdetail values('$idproduk','$kdbarang[$x]')";	$con->query($sql);	}		header("location:indexadmin.php?page=detailproduk.php");?>           

@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$noproduksi=$_GET['noproduksi'];		//Memasukkan variabel ke dalam tabel	$sql="DELETE FROM produksi WHERE noproduksi='$noproduksi'";	$con->query($sql);	header("location:indexproduksi.php?page=produksi.php");?>  

@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$kdbarang=$_GET['kdbarang'];		//Memasukkan variabel ke dalam tabel	$sql="DELETE FROM tb_stok WHERE kdbarang='$kdbarang'";	$con->query($sql);	header("location:indexadmin.php?page=stok.php");?> 

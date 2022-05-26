@@ -1,0 +1,1 @@
+<?php	include '../connection/koneksi.php';	$kdbarang=$_POST['kdbarang'];	$namabarang=$_POST['namabarang'];		//Memasukkan variabel ke dalam tabel	$sql="INSERT INTO bahan_baku (kdbarang,namabarang)	VALUES('$kdbarang','$namabarang')";	$con->query($sql);	header("location:indexgudang.php?page=bahanbaku.php");  ?>        

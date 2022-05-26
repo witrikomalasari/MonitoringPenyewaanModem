@@ -1,0 +1,624 @@
+* {
+	box-sizing:border-box;
+} 
+  
+body { 
+	font-family: courier new;  
+	margin: 0 auto;
+	 
+} 
+     
+h1 {
+	font-size:40px;  
+	color: #333;
+	text-align: center;  
+ 
+}
+
+#header {
+	background-color: black;
+	font-family: courier new;
+	width: 80%;  
+	height: 100px;
+	color: white;
+	float: left;
+	top: 0;
+	right: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	
+
+	}
+
+	
+	.judul {
+		color: white;
+		font-size: 30px;
+		text-align: center;
+		padding-top:20px;
+
+	}
+
+#righticon {	
+	background-color: black;
+	float: right;
+	width: 269.8px;
+	height: 100px;
+	color: white;
+	padding:2px;
+	text-align: center;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+	
+}
+
+	.welcome {
+		width: 240px;
+		height: 20px;
+		color: yellow;
+		display: inline-flex;
+		margin: 5px;
+		font-weight: bold;
+		padding-left: 50px;
+
+	}
+
+	.iconadmin {
+		width: 240px;
+		height: 40px;			
+		margin-top: 20px;
+		padding-top: 12px;	
+		display: inline-block;
+		padding-left: 100px;
+	
+	}
+											
+	.dropdown-icon {
+	    display: none;
+	    background-color: #f9f9f9;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+
+	
+	.dropdown-icon a {
+		color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
+	
+	.dropdown-icon a:hover {
+		background-color: #f1f1f1;
+
+	}
+
+#navigasi {
+	
+	background: linear-gradient(#FF0099,grey);
+	width: 13%;
+	height: 1000px;
+	float:left;	
+	text-align: left;	
+	box-shadow: 12px 0 0 0 rgba(0,0,0,0.2);
+	font-weight: bold;
+	font-size: 16px;
+	padding: 8px 0 0 5px;	
+	border-style: outset;
+	border-radius: 0 10px 0 0;
+	text-transform: uppercase;
+	text-shadow: 1px 1px black;
+	overflow: hidden;
+}	
+	
+	#navigasi ul li {			
+		padding: 5px;	
+		list-style-type: none;
+
+	}	
+
+	#navigasi a {
+		color: white;
+		border-bottom: white;
+		text-decoration: none;		
+	}
+
+	#navigasi ul li a:hover {
+		font-weight: bold;		
+		color: #3E009B;
+
+	} 
+
+   .caret:after {
+   		display: inline;
+		padding-left: 10px;
+		vertical-align: middle;
+		font-size: 15px;
+		color: white;
+		font-family: fontawesome;
+
+   }
+	
+   .caret:after {
+   		content: "\f0d9";
+   		font-size: 20px;
+   		color: white;
+
+   	}
+   
+   	.caret:focus:after, .caret:active:after {   		
+   		content: "\f0d7";
+   		font-family: fontawesome;
+   		color: black;
+ 
+   	}
+
+	.dropdown:hover {
+		color: blue;
+	}
+
+	.dropdown {
+		 color: white;
+	}
+
+	.dropdownmasterdata, .caret {		
+		width: 100px;
+		text-align: center;		
+		cursor: pointer;	
+		}		
+
+	.dropdownmasterdata
+		 {		
+		 	height: 150px;
+		 	display: none;				    	   
+		    margin-left: 28px;	
+		    font-style: italic;	
+		    font-family: Bradley Hand ITC;	
+		    font-size: 14px;	   
+		}
+
+	.dropdownmasterdata li {
+		margin-top: 6px;
+		margin-bottom: 6px;
+	}
+
+#content {
+	width: 86%;
+	height: 1000px;
+	float:left;	
+	margin-left: 10px;
+	border-radius: 10px 0 0 0;	
+	right: 0;
+
+	}
+
+p {
+	text-align:center;
+	font-weight: bold;
+
+}
+
+#isidashboard {
+		text-align: center;
+		font-weight: bold;		
+		border-style: outset;
+		position: absolute;
+		margin-left: 65px;
+		padding-left: 40px;
+		width: 80%;
+		height: 600px;
+		overflow: hidden;
+
+	}
+
+	#isidashboard label {
+		font-size: 25px;
+
+	}	
+	
+	#isidashboard button {
+		font-size: 15px;
+		font-weight: bold;	
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	
+
+		
+	}	 
+	#isidashboard a {
+			text-decoration: none;
+			color: black;
+
+		}
+
+	#kotak1 {
+		border:1px;
+		width: 40%;
+		height: 220px;	
+		float: left;
+		margin: 30px;
+		padding: 25px;	
+		background-color: pink;	
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 8px;
+		text-shadow: 2px 2px white;
+
+	}	
+
+		#isidashboard p {
+			margin-top: 5px;
+			font-weight: normal;
+			text-shadow:none;
+			font-size: 13px;
+		}
+
+
+		.user {
+			margin-top: 3px;
+			width: 85px;
+			height: 50px;	
+		}		
+
+		.prod {
+			margin-top: 3px;
+			width: 80px;
+			height: 50px;			
+		}
+
+		.cust {
+			margin-top: 3px;
+			width: 85px;
+			height: 50px;			
+		}
+
+		.stok {
+			margin-top: 3px;
+			width: 85px;
+			height: 50px;			
+		}
+
+	
+	#kotak2 {
+		border:1px;
+		width: 25%;
+		height: 220px;	
+		float: left;
+		margin: 30px;
+		padding: 25px;
+		text-align: center;	
+		background-color: pink;	
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 8px;		
+		text-shadow: 2px 2px white;
+
+		}
+
+		.dataord {
+		margin-top: 32px;
+		width: 100px;
+		height: 50px;
+		
+		}	
+
+	#kotak3 {
+		border:1px;
+		width: 25%;
+		height: 220px;	
+		float: left;
+		margin: 30px 30px 30px 110px;
+		padding: 25px;
+		text-align: center;	
+		background-color: pink;	
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 8px;
+		color: #333;
+		text-shadow: 2px 2px white;
+		}
+
+		.lapdo {
+		margin-top: 50px;
+		width: 100px;
+		height: 50px;
+
+
+		}
+	
+	#kotak4 {
+		border:1px;
+		width: 25%;
+		height: 220px;	
+		float: left;
+		margin: 30px;
+		padding: 20px;
+		text-align: center;
+		background-color: pink;	
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius: 8px;	
+		color: #333;
+		text-shadow: 2px 2px white;
+		}
+
+		.lapro {
+		margin-top: 60px;
+		width: 100px;
+		height: 50px;
+		
+		}
+
+	
+
+	input:focus,
+	textarea:focus,
+	select:focus
+	{
+		border:1px solid black;
+		box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+		background-color: #FFC0CB;
+	}
+
+
+
+	table {
+		box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.2);
+
+	}
+
+	#containeruser {
+		position: relative;
+		padding-top: 5px;
+		padding-left: 50px;
+		margin: 10px 20px 20px;
+		width: 90%;	
+		max-height: 100%;
+
+
+	}
+
+	.formuser { 
+		padding-bottom: 20px;
+		font-weight: bold;
+		font-family: courier news;		
+		margin-bottom: 5px;
+		width: 100%;
+		height: 40%;
+		font-size: 12px;
+			
+	}
+
+
+	.formuser input {
+		width: 250px;
+		height: 25px;
+		margin: 2px;
+		border-radius: 5px;
+	}
+
+	.formuser span {
+		padding-left: 3px;
+	}
+
+	
+
+	#containercustomer {
+		padding-top: 5px;
+		padding-left: 30px;
+		margin: 10px 20px 20px;
+		width: 80%;
+		max-height: 500px;
+		position: absolute;	
+	}
+
+	.formcustomer { 
+		padding-bottom: 20px;
+		font-weight: bold;
+		font-family: courier news;		
+		margin-bottom: 5px;
+		width: 100%;
+		font-size: 12px;
+			
+	}
+
+	.formcustomer input{
+		width: 300px;
+		height: 25px;
+		margin: 2px;
+		border-radius: 5px;
+	}
+
+	.formcustomer span {
+		padding-left: 3px;
+	}
+
+	
+
+	
+	#containerbahanbaku {
+		padding-top: 5px;
+		padding-left: 50px;
+		margin: 10px 20px 20px;
+		width: 80%;
+		height: 600px;
+		position: absolute;
+	}
+
+	.formbahanbaku { 
+		padding-bottom: 20px;
+		font-weight: bold;
+		font-family: courier news;		
+		margin-bottom: 5px;
+		width: 100%;
+		height: 40%;
+		font-size: 12px;
+			
+	}
+
+	.formbahanbaku input {
+		width: 200px;
+		height: 25px;
+		margin: 2px;
+		border-radius: 5px;
+	}
+
+	.formbahanbaku span {
+		padding-left: 3px;
+	}
+
+	#containernama {
+			position: absolute;
+			width: 530px;
+			margin-left: 40px;
+		}
+
+		.formnama { 
+		padding-bottom: 20px;
+		font-weight: bold;
+		font-family: courier news;
+		width: 98%;
+		height: 40%;
+		font-size: 12px;
+			
+	}
+
+	.formnama input {
+		width: 180px;
+		height: 25px;
+		margin: 2px;
+		border-radius: 5px;
+	}
+
+	.formnama span {
+		padding-left: 3px;
+	}
+
+	
+ #isidataorder {     
+ 		padding-top: 20px;
+        margin-left: 30px;
+        width: 83%;
+        height: auto;
+        position: absolute; 
+    }
+
+   #dosubmit  {
+		width: 60px;
+		margin: 0;
+		font-size: 10px;
+	}
+
+	#datatables, #datatables2 {
+	    font-family: sans-serif; 
+	    font-size: 13px;        
+	    text-align: center;	
+		}
+			
+	#datatable tr th, 
+	#datatables2 tr th {
+		vertical-align: middle;
+		font-weight: bold;
+		text-align: center; 
+	}
+
+	#datatables tr td, a,
+	#datatables2 tr td, a{
+		padding: 5px 7px 5px 7px;
+		vertical-align: middle;
+		    color: black;
+	}
+
+	#datatables tr td:hover,
+	#datatables2  tr td:hover {
+	    background-color: #0082D9;
+	}
+
+	
+
+	#isilaporando {
+		
+		margin: 10px 40px 20px;
+		width: 80%;
+		height: 600px;
+		position: absolute;
+		font-weight: bold;
+
+	}
+
+	.formlaporando { 
+		font-weight: bold;
+		font-family: courier news;		
+		width: 100%;
+		height: 40%;
+		font-size: 14px;
+			
+	}
+
+	.formlaporando input {
+		width: 150px;
+		height: 30px;
+		margin: 2px;
+		border-radius: 5px;
+	}
+
+	.formlaporando span {
+		padding-left: 3px;
+	}
+
+	#isilaporanprod {
+		
+		margin: 10px 40px 20px;
+		width: 80%;
+		height: 600px;
+		position: absolute;	
+		font-weight: bold;
+	}
+
+
+
+	.formisilaporanprod { 
+		font-weight: bold;
+		font-family: courier news;	
+		width: 100%;
+		height: 40%;
+		font-size: 14px;
+			
+	}
+
+	.formisilaporanprod input {
+		width: 150px;
+		height: 30px;
+		margin: 2px;
+		border-radius: 5px;
+	}
+
+	.formisilaporanprod span {
+		padding-left: 3px;
+	}
+
+	
+
+	input[type=submit],input[type=reset]{
+		width: 80px;
+		margin: 12px 8px 12px 10px;
+	    width: 80px;
+	    cursor:pointer;   
+	    border:outset;
+	    background:#991D57;
+	    color:#FFF;   
+	    border-radius:5px;
+
+	}
+
+.disabled {
+	pointer-events: none;
+	opacity:0.5;
+}	
+
+
+	
+#footer {
+	clear: left;
+	width: 100%; 
+	height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
